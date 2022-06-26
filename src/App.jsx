@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='bg-dark text-white'>
-      <h1 className='text-center p-3 display-1'>Hello World</h1>
+      <h1 className='text-center p-3 display-1'>react-rick-and-morty</h1>
       <CharacterList  />
     </div>
   );
