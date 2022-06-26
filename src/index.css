@@ -12,8 +12,29 @@ code {
     monospace;
 }
 
-
 h2 {
   font-size: calc(7px + 2vmin);
   color: #61dafb !important;
+}
+
+.status {
+  background-color: #61dafb;
+  color: rgb(41, 41, 41);
+  padding: 0.2rem;
+  max-width: 150px;
+  border-radius:1rem ;
+  font-size: calc(1px + 1.5vmin);
+  margin-top: 5px;
+  text-align: center;
+}
+
+.dead {
+  background-color: #fb61ae;
+  color: rgb(255, 255, 255);
+  padding: 0.2rem;
+  max-width: 150px;
+  border-radius:1rem ;
+  font-size: calc(1px + 1.5vmin);
+  margin-top: 5px;
+  text-align: center;
 }
